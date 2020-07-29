@@ -11,7 +11,7 @@
                    <key>kind</key>
                    <string>software-package</string>
                    <key>url</key>
-                   <string>https://raw.githubusercontent.com/harrybui2804/tngapp/master/tngproductivity.ipa</string>
+                   <string>https://github.com/harrybui2804/tngapp/blob/master/tngproductivity.ipa</string>
                </dict>
            </array>
            <key>metadata</key>
