@@ -1,6 +1,6 @@
 {
-  "androidVersion": "20.08.01",
-  "androidCode": 200801,
+  "androidVersion": "20.08.02",
+  "androidCode": 200802,
   "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/tngoffice.apk",
   "iosVersion": "20.08.01",
   "iosBuild": 200801,
