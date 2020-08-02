@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://appmobile.tng.vn:8082/apps/tng.png</string>
+					<string>http://appmobile.tng.vn:8082/apps/tng.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://appmobile.tng.vn:8082/apps/tng.png</string>
+					<string>http://appmobile.tng.vn:8082/apps/tng.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -31,7 +31,7 @@
 				<key>bundle-identifier</key>
 				<string>vn.tng.office</string>
 				<key>bundle-version</key>
-				<string>20.08.01</string>
+				<string>20.08.02</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
