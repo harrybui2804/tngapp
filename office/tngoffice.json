@@ -1,0 +1,8 @@
+{
+  "androidVersion": "2020.08.01",
+  "androidCode": 20200801,
+  "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/tngoffice.apk",
+  "iosVersion": "2020.08.01",
+  "iosBuild": 20200801,
+  "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
+}
