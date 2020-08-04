@@ -3,7 +3,7 @@
   "androidCode": 200803,
   "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/tngoffice.apk",
   "iosVersion": "20.08.04",
-  "iosBuild": 200804,
+  "iosBuild": 200805,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
   "description": "Sửa lỗi và cải thiện"
 }
