@@ -1,9 +1,9 @@
 {
-  "androidVersion": "20.08.11",
-  "androidCode": 200803,
+  "androidVersion": "20.08.25",
+  "androidCode": 200825,
   "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/tngoffice.apk",
-  "iosVersion": "20.08.20",
-  "iosBuild": 200820,
+  "iosVersion": "20.08.25",
+  "iosBuild": 200825,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
   "description": "Sửa lỗi và cải thiện"
 }
