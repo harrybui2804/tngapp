@@ -5,5 +5,5 @@
   "iosVersion": "20.08.30",
   "iosBuild": 200830,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
-  "description": "Sửa lỗi và cải thiện"
+  "description": "- Sửa lỗi và cải thiện\n- Báo cáo sx, doanh thu, cân bằng chuyền"
 }
