@@ -2,8 +2,8 @@
   "androidVersion": "20.09.25",
   "androidCode": 200914,
   "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/tngoffice.apk",
-  "iosVersion": "20.09.25",
-  "iosBuild": 200925,
+  "iosVersion": "20.10.01",
+  "iosBuild": 201001,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
-  "description": "- Sửa lỗi và cải thiện\n- Phân quyền admin"
+  "description": "- Sửa lỗi và cải thiện\n- Sửa lỗi lịch\n- Thêm ảnh bảng tin\n- Báo cáo NSLĐ đầu đen"
 }
