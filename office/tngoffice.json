@@ -1,8 +1,8 @@
 {
-  "androidVersion": "20.10.08",
+  "androidVersion": "20.10.16",
   "androidCode": 201005,
   "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/tngoffice.apk",
-  "iosVersion": "20.10.08",
+  "iosVersion": "20.10.16",
   "iosBuild": 201008,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
   "description": "- Sửa lỗi và cải thiện\n- Báo cáo doanh số sản xuất theo ngày"
