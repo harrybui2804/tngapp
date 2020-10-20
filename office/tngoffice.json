@@ -2,8 +2,8 @@
   "androidVersion": "20.10.20",
   "androidCode": 201005,
   "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/tngoffice.apk",
-  "iosVersion": "20.10.16",
-  "iosBuild": 201008,
+  "iosVersion": "20.10.20",
+  "iosBuild": 201020,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
   "description": "- Sửa lỗi và cải thiện\n- Quản lý thiết bị"
 }
