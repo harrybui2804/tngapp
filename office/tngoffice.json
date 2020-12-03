@@ -1,9 +1,9 @@
 {
-  "androidVersion": "20.11.24",
+  "androidVersion": "20.12.03",
   "androidCode": 201124,
   "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/tngoffice.apk",
-  "iosVersion": "20.11.24",
-  "iosBuild": 201124,
+  "iosVersion": "20.12.03",
+  "iosBuild": 201203,
   "ipaUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/manifest.plist",
-  "description": "- Sửa lỗi và cải thiện module theo dõi xe"
+  "description": "- Quản lý chất lượng (QC EndLine)\n- Từ điển chuyên ngành may"
 }
