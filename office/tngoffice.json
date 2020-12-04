@@ -1,7 +1,7 @@
 {
   "androidVersion": "20.12.04",
   "androidCode": 201203,
-  "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/tngoffice.apk",
+  "apkUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/android.apk",
   "iosVersion": "20.12.04",
   "iosBuild": 201204,
   "ipaUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/manifest.plist",
