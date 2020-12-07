@@ -1,6 +1,6 @@
 {
   "androidVersion": "20.12.04",
-  "androidCode": 201203,
+  "androidCode": 201204,
   "apkUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/android.apk",
   "iosVersion": "20.12.04",
   "iosBuild": 201204,
