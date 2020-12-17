@@ -1,9 +1,9 @@
 {
-  "androidVersion": "20.12.09",
-  "androidCode": 201204,
+  "androidVersion": "20.12.17",
+  "androidCode": 201209,
   "apkUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/android.apk",
-  "iosVersion": "20.12.09",
+  "iosVersion": "20.12.17",
   "iosBuild": 201209,
   "ipaUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/manifest.plist",
-  "description": "- Sửa lỗi và cải thiện"
+  "description": "- Sửa lỗi và cải thiện\n- Duyệt phiếu xuất"
 }
