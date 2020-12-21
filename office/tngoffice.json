@@ -1,9 +1,9 @@
 {
-  "androidVersion": "20.12.17",
+  "androidVersion": "20.12.21",
   "androidCode": 201217,
   "apkUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/android.apk",
   "iosVersion": "20.12.17",
   "iosBuild": 201217,
   "ipaUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/manifest.plist",
-  "description": "- Sửa lỗi và cải thiện\n- Duyệt phiếu xuất"
+  "description": "- Nâng cấp từ điển\n- Nâng cấp QLCL"
 }
