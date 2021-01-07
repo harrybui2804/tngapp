@@ -1,9 +1,9 @@
 {
-  "androidVersion": "20.12.31",
+  "androidVersion": "21.01.07",
   "androidCode": 201231,
   "apkUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/android.apk",
-  "iosVersion": "20.12.31",
+  "iosVersion": "21.01.07",
   "iosBuild": 201231,
   "ipaUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/manifest.plist",
-  "description": "Sửa lỗi và cải thiện\n- Nâng cấp QLCL"
+  "description": "- Sửa lỗi và cải thiện Quản lý xe ra vào cổng"
 }
