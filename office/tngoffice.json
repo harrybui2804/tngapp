@@ -1,9 +1,9 @@
 {
-  "androidVersion": "21.01.07",
+  "androidVersion": "21.01.12",
   "androidCode": 210107,
   "apkUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/android.apk",
-  "iosVersion": "21.01.07",
-  "iosBuild": 210107,
+  "iosVersion": "21.01.12",
+  "iosBuild": 210112,
   "ipaUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/manifest.plist",
-  "description": "- Sửa lỗi và cải thiện Quản lý xe ra vào cổng"
+  "description": "- Nâng cấp Phê duyệt phiếu"
 }
