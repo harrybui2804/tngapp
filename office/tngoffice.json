@@ -1,9 +1,9 @@
 {
-  "androidVersion": "21.01.19",
-  "androidCode": 210119,
+  "androidVersion": "21.01.26",
+  "androidCode": 210126,
   "apkUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/android.apk",
-  "iosVersion": "21.01.19",
-  "iosBuild": 210119,
+  "iosVersion": "21.01.26",
+  "iosBuild": 210126,
   "ipaUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/manifest.plist",
-  "description": "- Cập nhật Phê duyệt, QLCL"
+  "description": "- Cập nhật Phiếu thưởng năm"
 }
