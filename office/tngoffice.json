@@ -1,9 +1,9 @@
 {
-  "androidVersion": "21.01.30",
+  "androidVersion": "21.02.01",
   "androidCode": 210130,
   "apkUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/android.apk",
-  "iosVersion": "21.01.30",
-  "iosBuild": 210130,
+  "iosVersion": "21.02.01",
+  "iosBuild": 210201,
   "ipaUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/manifest.plist",
-  "description": "- Cập nhật báo cáo, lịch công việc"
+  "description": "- Cập nhật báo cáo, Phê duyệt"
 }
