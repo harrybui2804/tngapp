@@ -1,9 +1,9 @@
 {
-  "androidVersion": "21.02.01",
+  "androidVersion": "21.02.18",
   "androidCode": 210201,
-  "apkUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/android.apk",
-  "iosVersion": "21.02.01",
+  "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
+  "iosVersion": "21.02.18",
   "iosBuild": 210201,
-  "ipaUrl": "https://tngoffice.s3-ap-southeast-1.amazonaws.com/office/manifest.plist",
+  "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
   "description": "- Cập nhật báo cáo, Phê duyệt"
 }
