@@ -1,9 +1,9 @@
 {
-  "androidVersion": "21.03.01",
+  "androidVersion": "21.03.16",
   "androidCode": 210301,
   "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
-  "iosVersion": "21.03.01",
+  "iosVersion": "21.03.16",
   "iosBuild": 210301,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
-  "description": "- Báo cáo sx hàng ngày\n- Tìm kiếm lịch"
+  "description": "- Kho thông minh"
 }
