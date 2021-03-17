@@ -1,9 +1,9 @@
 {
   "androidVersion": "21.03.16",
-  "androidCode": 210301,
+  "androidCode": 210316,
   "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
   "iosVersion": "21.03.16",
-  "iosBuild": 210301,
+  "iosBuild": 210316,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
   "description": "- Kho thông minh"
 }
