@@ -1,9 +1,9 @@
 {
   "androidVersion": "21.04.15",
-  "androidCode": 210331,
+  "androidCode": 210415,
   "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
   "iosVersion": "21.04.15",
   "iosBuild": 210415,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
-  "description": "- Sửa lỗi Kho thông minh"
+  "description": "- Sửa lỗi và cập nhật"
 }
