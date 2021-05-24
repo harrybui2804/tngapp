@@ -1,9 +1,9 @@
 {
-  "androidVersion": "21.05.10",
-  "androidCode": 210506,
+  "androidVersion": "21.05.22",
+  "androidCode": 210522,
   "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
-  "iosVersion": "21.05.10",
-  "iosBuild": 210510,
+  "iosVersion": "21.05.22",
+  "iosBuild": 210522,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
-  "description": "- Sửa lỗi báo cáo, tuần tra bảo vệ"
+  "description": "- Sửa quản lý chất lượng"
 }
