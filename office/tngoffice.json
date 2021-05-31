@@ -1,9 +1,9 @@
 {
-  "androidVersion": "21.05.24",
+  "androidVersion": "21.05.31",
   "androidCode": 210524,
   "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
-  "iosVersion": "21.05.24",
+  "iosVersion": "21.05.31",
   "iosBuild": 210524,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
-  "description": "- Sửa quản lý chất lượng, cbc"
+  "description": "- Sửa Duyệt phiếu"
 }
