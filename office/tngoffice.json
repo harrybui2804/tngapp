@@ -1,9 +1,9 @@
 {
-  "androidVersion": "21.06.07",
+  "androidVersion": "21.06.12",
   "androidCode": 210607,
   "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
-  "iosVersion": "21.06.07",
-  "iosBuild": 210607,
+  "iosVersion": "21.06.12",
+  "iosBuild": 210612,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
   "description": "- Sửa Duyệt phiếu, Quản lý thiết bị"
 }
