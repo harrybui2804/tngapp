@@ -1,9 +1,9 @@
 {
-  "androidVersion": "21.06.25",
+  "androidVersion": "21.07.01",
   "androidCode": 210625,
   "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
-  "iosVersion": "21.06.25",
-  "iosBuild": 210625,
+  "iosVersion": "21.07.01",
+  "iosBuild": 210701,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
-  "description": "- Sửa lỗi và cải thiện"
+  "description": "- Sửa lỗi và cải thiện\n-Báo cáo dòng tiền"
 }
