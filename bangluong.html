@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta charset="UTF-8">
+</header>
+<body>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 55%; border: 1px solid black; padding: 0px 5px 0px 17px;">
+      <p style="font-weight: bold">A. Tổng thu nhập : II + III</p>
+    </div>
+    <div style="width: 15%; text-align: center; border: 1px solid black; border-left: 0px;">
+      <p style="line-height: 0px; font-weight: bold">Số công</p>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+        <div style="width: 50%; border: 1px solid black; border-left: 0px; border-bottom: 0px; font-weight: bold">SP</div>
+        <div style="width: 50%; border: 1px solid black; border-left: 0px; border-right: 0px; border-bottom: 0px; font-weight: bold">TG</div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+        <div style="width: 50%; border: 1px solid black; border-left: 0px; border-bottom: 0px;">{sp}</div>
+        <div style="width: 50%; border: 1px solid black; border-left: 0px; border-right: 0px; border-bottom: 0px;">{tg}</div>
+      </div>
+    </div>
+    <div style="width: 30%; text-align: center; border: 1px solid black; border-left: 0px; padding: 0px 5px 0px 5px;">
+      <p style="font-weight: bold">Thu nhập</p>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 70%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 17px;">
+      <p style="line-height: 0px; font-weight: bold">Lương cấp bậc/Sản phẩm</p>
+    </div>
+    <div style="width: 30%; text-align: right; border: 1px solid black; border-top: 0px; border-left: 0px; padding: 0px 5px 0px 5px;">
+      <p style="line-height: 0px; font-weight: bold">{LuongCapBac}</p>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 70%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 17px;">
+      <p style="line-height: 0px; font-weight: bold">Xếp loại</p>
+    </div>
+    <div style="width: 30%; text-align: right; border: 1px solid black; border-top: 0px; border-left: 0px; padding: 0px 5px 0px 5px;">
+      <p style="line-height: 0px; font-weight: bold">{XepLoai}</p>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 70%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 17px;">
+      <p style="line-height: 0px; font-weight: bold">I. Tiền lương căn cứ đóng bảo hiểm</p>
+    </div>
+    <div style="width: 30%; text-align: right; border: 1px solid black; border-top: 0px; border-left: 0px; padding: 0px 5px 0px 5px;">
+      <p style="line-height: 0px; font-weight: bold">{LuongBaoHiem}</p>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 20%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 5px;">
+      <p style="font-weight: bold;">Tiền lương tham gia bảo hiểm</p>
+    </div>
+    <div style="width: 50%; border-right: 1px solid black;">
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        1. Mức lương cơ bản
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        2. Mức phụ cấp công việc
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        3. Mức PCCC
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        4. Mức ATVSV
+      </div>
+    </div>
+    <div style="width: 30%; border: 1px solid black; border-left: 0px; border-top: 0px; padding: 0px 5px 0px 0px;">
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {LuongCoBan}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {PhuCapCV}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {PhuCapPCCC}
+      </div>
+      <div style="border-bottom: 0px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {PhuCapATVSV}
+      </div>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 70%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 17px;">
+      <p style="line-height: 0px; font-weight: bold">II. Tiền lương thực trả cho người lao động</p>
+    </div>
+    <div style="width: 30%; text-align: right; border: 1px solid black; border-top: 0px; border-left: 0px; padding: 0px 5px 0px 5px;">
+      <p style="line-height: 0px; font-weight: bold">{LuongThucTra}</p>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 20%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 5px;">
+      <p style="font-weight: bold;">Tiền lương</p>
+    </div>
+    <div style="width: 50%; border-right: 1px solid black;">
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        5. Lương 8h
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        6. Lương thời gian
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        7. Lương thêm giờ
+      </div>
+    </div>
+    <div style="width: 30%; border: 1px solid black; border-left: 0px; border-top: 0px; padding: 0px 5px 0px 0px;">
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {Luong8h}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {LuongThoiGian}
+      </div>
+      <div style="border-bottom: 0px; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {LuongThemGio}
+      </div>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 20%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 5px;">
+      <p style="font-weight: bold;">Phụ cấp lương</p>
+    </div>
+    <div style="width: 50%; border-right: 1px solid black;">
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        8. PC Lương(CV, PCCC, ATVSV)
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        9. PC lao động nữ
+      </div>
+    </div>
+    <div style="width: 30%; border: 1px solid black; border-left: 0px; border-top: 0px; padding: 0px 5px 0px 0px;">
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {PCLuong}
+      </div>
+      <div style="border-bottom: 0px; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {PCPhuNu}
+      </div>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 20%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 5px;">
+      <p style="font-weight: bold;">Bổ sung khác</p>
+    </div>
+    <div style="width: 50%; border-right: 1px solid black;">
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        10. TL VNS/TL HQCV
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        11. TL Kiêm nhiệm
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        12. TT Xếp hạng
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+           TT Khác
+      </div>
+    </div>
+    <div style="width: 30%; border: 1px solid black; border-left: 0px; border-top: 0px; padding: 0px 5px 0px 0px;">
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {VNS_HQCV}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {TLKiemNhiem}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {TTXepHang}
+      </div>
+      <div style="border-bottom: 0px; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {TTKhac}
+      </div>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 70%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 17px;">
+      <p style="line-height: 0px; font-weight: bold">III. Phúc lợi Công ty</p>
+    </div>
+    <div style="width: 30%; text-align: right; border: 1px solid black; border-top: 0px; border-left: 0px; padding: 0px 5px 0px 5px;">
+      <p style="line-height: 0px; font-weight: bold">{PhucLoi}</p>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 20%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 5px;">
+      <p style="font-weight: bold;">Phúc lợi Công ty</p>
+    </div>
+    <div style="width: 50%; border-right: 1px solid black;">
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        13. Con nhỏ
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        14. Khác
+      </div>
+    </div>
+    <div style="width: 30%; border: 1px solid black; border-left: 0px; border-top: 0px; padding: 0px 5px 0px 0px;">
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {PL_ConNho}
+      </div>
+      <div style="border-bottom: 0px; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {PL_Khac}
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 70%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 17px;">
+      <p style="line-height: 0px; font-weight: bold">B. Tổng số tiền người lao động phải nộp</p>
+    </div>
+    <div style="width: 30%; text-align: right; border: 1px solid black; border-top: 0px; border-left: 0px; padding: 0px 5px 0px 5px;">
+      <p style="line-height: 0px; font-weight: bold">{PhaiNop}</p>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 20%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 5px;">
+      <p style="font-weight: bold;">Các khoản người lao động phải nộp</p>
+    </div>
+    <div style="width: 50%; border-right: 1px solid black;">
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        15. BHXH(10.5%)
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        16. Thuế thu nhập cá nhân
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        17. Đảng phí
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        18. Công đoàn phí
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        19. Đoàn phí
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        20. Khác
+      </div>
+    </div>
+    <div style="width: 30%; border: 1px solid black; border-left: 0px; border-top: 0px; padding: 0px 5px 0px 0px;">
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {PN_BHXH}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        {PN_TTNCN}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        {PN_DangPhi}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        {PN_CongDoan}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        {PN_Doan}
+      </div>
+      <div style="border-bottom: 0px; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {PN_Khac}
+      </div>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 70%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 17px;">
+      <p style="line-height: 0px; font-weight: bold">C. Số tiền người lao động được nhận</p>
+    </div>
+    <div style="width: 30%; text-align: right; border: 1px solid black; border-top: 0px; border-left: 0px; padding: 0px 5px 0px 5px;">
+      <p style="line-height: 0px; font-weight: bold">{ConNhan}</p>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 70%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 17px;">
+      <p style="line-height: 0px; font-weight: bold">D. Tiền thưởng năm NLĐ được hưởng</p>
+    </div>
+    <div style="width: 30%; text-align: right; border: 1px solid black; border-top: 0px; border-left: 0px; padding: 0px 5px 0px 5px;">
+      <p style="line-height: 0px; font-weight: bold"></p>
+    </div>
+  </div>
+  <div style="display: flex; flex-wrap: nowrap; width: 100%;">
+    <div style="width: 20%; border: 1px solid black; border-top: 0px; padding: 0px 5px 0px 5px;">
+      <p style="font-weight: bold;">Tiền thưởng năm(Công ty chi vào dịp Tết Nguyên Đán)</p>
+    </div>
+    <div style="width: 50%; border-right: 1px solid black;">
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        21. Tích luỹ xếp hạng ABC hàng tháng * K1
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        22. Lao động tiên tiến * K2
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        23. Chiến sĩ thi đua * K3
+      </div>
+      <div style="border-bottom: 1px solid black; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        24. Lương tháng thứ 13 * K4
+      </div>
+    </div>
+    <div style="width: 30%; border: 1px solid black; border-left: 0px; border-top: 0px; padding: 0px 5px 0px 0px;">
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 3px 5px;">
+        {TN_XepHang}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        {TN_LDTT}
+      </div>
+      <div style="border-bottom: 1px solid black; text-align: right; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        {TN_CSTD}
+      </div>
+      <div style="border-bottom: 0px; text-align: right; word-wrap: break-word; padding: 3px 5px 5px 5px;">
+        {TN_Thang13}
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "androidVersion": "21.03.03",
+  "androidCode": 210303,
+  "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/demo/android.apk",
+  "iosVersion": "21.03.03",
+  "iosBuild": 210303,
+  "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/demo/manifest.plist",
+  "description": "- Sửa lỗi và cải thiện"
+}

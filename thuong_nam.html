@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <meta charset="UTF-8">
+  </header>
+  <body>
+    <div style="flex-wrap: nowrap; width: 100%;">
+      <p style="font-weight: bold; text-align: center; font-size: 24px;">PHIẾU THƯỞNG NĂM {nam}</p>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black;">
+      <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+        <p style="font-weight: bold">Tổng lương sản phẩm</p>
+      </div>
+      <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+        <p style="font-weight: bold">{luongSP}</p>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+      <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+        <p style="font-weight: bold">Tổng thưởng ABC</p>
+      </div>
+      <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+        <p style="font-weight: bold">{thuongABC}</p>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+      <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+        <p style="font-weight: bold">Số tháng làm việc</p>
+      </div>
+      <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+        <p style="font-weight: bold">{soThangLV}</p>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+      <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+        <p style="font-weight: bold">Số tháng xét thưởng</p>
+      </div>
+      <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+        <p style="font-weight: bold">{soThangXT}</p>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+      <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+        <p style="font-weight: bold">Số tháng xếp hạng khá</p>
+      </div>
+      <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+        <p style="font-weight: bold">{soThangKha}</p>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+      <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+        <p style="font-weight: bold">Số tháng bù lương</p>
+      </div>
+      <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+        <p style="font-weight: bold">{soThangBL}</p>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+      <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+        <p style="font-weight: bold">Số tháng kỷ luật</p>
+      </div>
+      <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+        <p style="font-weight: bold">{soThangKL}</p>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+      <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+        <p style="font-weight: bold">Tổng thu nhập</p>
+      </div>
+      <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+        <p style="font-weight: bold">{tongTN}</p> </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">Thu nhập bình quân/tháng</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+          <p style="font-weight: bold">{thuNhapBQ}</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">Tiền lương bình quân</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+          <p style="font-weight: bold">{luongBQ}</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">T. thưởng/Tổng thu nhập</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+          <p style="font-weight: bold">{thuong_TNN}</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">T. thưởng/Tổng thu bình quân</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+          <p style="font-weight: bold">{thuong_TNBQ}</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">Lương tạm ứng</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+          <p style="font-weight: bold">{luongTamUng}</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">Thưởng tích lũy</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+          <p style="font-weight: bold">{thuongTL}</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">Thưởng lao động tiên tiến</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+          <p style="font-weight: bold">{thuongLDTT}</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">Thưởng chiến sỹ thi đua</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+          <p style="font-weight: bold">{thuongCSTD}</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">Thưởng tối thiểu</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+          <p style="font-weight: bold">{thuongTT}</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">Thưởng khác</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;">
+          <p style="font-weight: bold">{thuongKhac}</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;">
+        <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;">
+          <p style="font-weight: bold">Tổng cộng</p>
+        </div>
+        <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;"> <p style="font-weight: bold">{tongCong}</p> </div> </div> <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;"> <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;"> <p style="font-weight: bold">Thuế TNCN</p> </div> <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;"> <p style="font-weight: bold">{thueTNCN}</p> </div> </div> <div style="display: flex; flex-wrap: nowrap; width: 100%; border: 1px solid black; border-top: 0px;"> <div style="display: flex; padding: 0px 5px 0px 17px; width: -webkit-fill-available;"> <p style="font-weight: bold">THƯỞNG NĂM</p> </div> <div style="width: 40%; border-left: 1px solid black; text-align: end; padding: 0px 10px 0px 10px;"> <p style="font-weight: bold">{thuongNam}</p> </div> </div> <p style="font-weight: bold">Ghi chú</p> <p>- Lương tạm tứng = Ʃ(Lương SP tháng 12 tháng)/12 x K<font style="font-size: 9px">13</font></p> <p>- Thưởng tích lũy = Tổng thưởng thành tính tháng x K<font style="font-size: 9px">TL</font></p> <p>- Thưởng LĐTT (nếu có) = Ʃ(Lương SP tháng 12 tháng)/12 x K<font style="font-size: 9px">TT</font></p> <p>- Thưởng CSTĐ (nếu có) = Ʃ(Lương SP tháng 12 tháng)/12 x K<font style="font-size: 9px">CSTĐ</font></p> <p>- Người lao động mới vào làm việc tại công ty chưa có tiền thưởng tích lũy và tiền lương tạm ứng < 3 triệu đồng thì được công ty hỗ trợ tiền tết mỗi ngày làm việc tại công ty (từ ngày ký hợp đồng đến ngày nghỉ tết) là 30.000 đ/ngày. Mức tối thiểu là 1.000.000 đồng, mức tối đa là 3.000.000 đồng</p> <p>(Chỉ thưởng tối thiểu khi Tổng thưởng nhỏ hơn mức thưởng tối thiểu)</p> <p>(Các trường hợp sau đây không được xét thưởng: Đang bị kỷ luật, Hợp đồng thử việc-vụ việc, Tham gia ngừng việc tập thể)</p></body></html>
