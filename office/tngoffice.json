@@ -1,9 +1,9 @@
 {
   "androidVersion": "21.11.18",
-  "androidCode": 20211106,
+  "androidCode": 20211118,
   "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
   "iosVersion": "21.11.18",
-  "iosBuild": 20211115,
+  "iosBuild": 20211118,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
   "description": "- Sửa lỗi và cải thiện"
 }
