@@ -1,8 +1,8 @@
 {
-  "androidVersion": 210909,
-  "iosVersion": 210909,
+  "androidVersion": 22020311,
+  "iosVersion": 22020311,
   "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/productivity/android.apk",
   "iosUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/productivity/manifest.plist",
   "forceUpdate": true,
-  "description": "- Tuỳ chọn số lượng"
+  "description": "- Cấp BTP theo màu | cỡ"
 }
