@@ -1,6 +1,6 @@
 {
   "androidVersion": 22020311,
-  "iosVersion": 22020311,
+  "iosVersion": 220311,
   "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/productivity/android.apk",
   "iosUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/productivity/manifest.plist",
   "forceUpdate": true,
