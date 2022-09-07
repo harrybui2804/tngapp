@@ -1,9 +1,9 @@
 {
-  "androidVersion": "22.8.2",
-  "androidCode": 20220415,
+  "androidVersion": "22.9.7",
+  "androidCode": 20220907,
   "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
-  "iosVersion": "22.8.2",
-  "iosBuild": 20220802,
+  "iosVersion": "22.9.7",
+  "iosBuild": 20220907,
   "ipaUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist",
   "description": "- Sửa lỗi và cải thiện"
 }
