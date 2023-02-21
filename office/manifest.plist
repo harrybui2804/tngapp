@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>http://14.225.7.203:8082/apps/tng.png</string>
+					<string>https://app.tng.vn/img/logo.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>http://14.225.7.203:8082/apps/tng.png</string>
+					<string>https://app.tng.vn/img/logo.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
