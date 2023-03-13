@@ -11,27 +11,27 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://app.tng.vn/tngcbc.ipa</string>
+					<string>https://github.com/harrybui2804/tngapp/raw/master/productivity/tngcbc.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>http://appmobile.tng.vn:8082/apps/tng.png</string>
+					<string>http://app.tng.vn/img/logo.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>http://appmobile.tng.vn:8082/apps/tng.png</string>
+					<string>http://app.tng.vn/img/logo.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>vn.tng.tngproductivity</string>
+				<string>vn.tng.productivity</string>
 				<key>bundle-version</key>
-				<string>22.8.4</string>
+				<string>22.11.11</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>

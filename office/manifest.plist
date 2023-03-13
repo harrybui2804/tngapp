@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>http://14.225.7.203:8082/apps/tng.png</string>
+					<string>http://app.tng.vn/img/logo.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>http://14.225.7.203:8082/apps/tng.png</string>
+					<string>http://app.tng.vn/img/logo.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -31,7 +31,7 @@
 				<key>bundle-identifier</key>
 				<string>vn.tng.office</string>
 				<key>bundle-version</key>
-				<string>22.9.8</string>
+				<string>23.1.31</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
