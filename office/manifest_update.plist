@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>vn.tng.office.dev</string>
+				<string>vn.tng.office</string>
 				<key>bundle-version</key>
 				<string>23.9.8</string>
 				<key>kind</key>
