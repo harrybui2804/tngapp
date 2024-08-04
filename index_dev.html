@@ -1,15 +1,115 @@
 <!DOCTYPE html>
-<html>
-<header>
-  <meta charset="UTF-8">
-</header>
-<body>
-
-<h1 style="text-align: center;"><strong>TRANG QUẢN LÝ ỨNG DỤNG</strong></h1>
-<h2 style="text-align: center;"><strong>TNGOFFICE DEV</strong></h2>
-<div style="align-items: center;display: block">
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/manifest.plist"><img src="http://14.170.154.13:8082/apps/install_ios.png" alt="" width="125" height="40" /></a>
-</div>
-<p>&nbsp;</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="container">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="./index.html" class="nav-item nav-link active">Trang chủ</a>
+                        <a href="./huongdan.html" class="nav-item nav-link">Hướng dẫn</a>
+                        <a href="#" class="nav-item nav-link" tabindex="-1">Reports</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>PLATFORM</th>
+                    <th>NHÀ BÈ OFFICE</th>
+                    <!-- <th>ITAS CBC</th> -->
+                    <!-- <th>ITAS BOX</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>IOS</td>
+                    <td>
+                        <a class="btn btn-primary" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/habvtng/pk_apps/nha_be/office/manifest.plist">
+                            Download
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ANDROID</td>
+                    <td>
+                        <a class="btn btn-primary" href="market://details?id=vn.com.nhabe.office">CHPLAY</a>
+                        <!-- <a class="btn btn-primary" href="office/">Download APK</a> -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>ANDROID</td>
+                    <td>
+                        <a class="btn btn-primary" href="office/nbcoffice.apk">APK</a>
+                        <!-- <a class="btn btn-primary" href="office/">Download APK</a> -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+		<table class="table">
+            <thead>
+                <tr>
+                    <th>PLATFORM</th>
+                    <th>NHÀ BÈ CBC</th>
+                    <!-- <th>ITAS CBC</th> -->
+                    <!-- <th>ITAS BOX</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>IOS</td>
+                    <td>
+                        <a class="btn btn-primary" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/habvtng/pk_apps/nha_be/cbc/manifest.plist">
+                            Download
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ANDROID</td>
+                    <td>
+                        <a class="btn btn-primary" href="market://details?id=vn.com.nhabe.cbc">CHPLAY</a>
+                        <!-- <a class="btn btn-primary" href="office/">Download APK</a> -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>ANDROID</td>
+                    <td>
+                        <a class="btn btn-primary" href="cbc/cbc.apk">APK</a>
+                        <!-- <a class="btn btn-primary" href="office/">Download APK</a> -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+		<table class="table">
+            <thead>
+                <tr>
+                    <th>PLATFORM</th>
+                    <th>NHÀ BÈ TVBOX</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ANDROID</td>
+                    <td>
+                        <a class="btn btn-primary" href="box/box.apk">APK</a>
+                        <!-- <a class="btn btn-primary" href="office/">Download APK</a> -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
