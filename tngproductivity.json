@@ -1,9 +1,0 @@
-{
-  "versionName":"999999",
-  "versionCode": "999999",
-  "androidVersion": 210826,
-  "iosVersion": 210826,
-  "apkUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/productivity/android.apk",
-  "iosUrl": "https://raw.githubusercontent.com/harrybui2804/tngapp/master/productivity/manifest.plist",
-  "forceUpdate": true
-}
