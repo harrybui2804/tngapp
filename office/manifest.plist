@@ -12,19 +12,19 @@
 					<string>software-package</string>
 					<key>url</key>
 					<!--<string>https://github.com/harrybui2804/tngapp/raw/master/office/ios.ipa</string>-->
-					<string>https://raw.githubusercontent.com/harrybui2804/tngapp/master/office/ios.ipa</string>
+					<string>https://app.tng.vn/office/ios.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>http://app.tng.vn/img/logo.png</string>
+					<string>https://app.tng.vn/img/logo.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>http://app.tng.vn/img/logo.png</string>
+					<string>https://app.tng.vn/img/logo.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -32,7 +32,7 @@
 				<key>bundle-identifier</key>
 				<string>vn.tng.office</string>
 				<key>bundle-version</key>
-				<string>25.3.2</string>
+				<string>25.4.2</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
