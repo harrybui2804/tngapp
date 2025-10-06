@@ -1,0 +1,9 @@
+{
+  "androidVersion": "22.9.8",
+  "androidCode": 20220908,
+  "apkUrl": "https://github.com/harrybui2804/tngapp/raw/master/office/android.apk",
+  "iosVersion": "25.10.5",
+  "iosBuild": 20251005,
+  "ipaUrl": "https://raw.githubusercontent.com/habvtng/pk_apps/master/office/pkoffice_manifest.plist",
+  "description": "- Sửa lỗi và cải thiện"
+}
