@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</header>
+<body>
+<script type="text/javascript">
+    var ip = location;
+    console.log(ip);
+    if (!sessionStorage.getItem('reloaded')) {
+        sessionStorage.setItem('reloaded', 'true');
+        window.location.href = window.location.pathname + '?_nocache=' + Date.now();
+    }
+</script>
+<h1 style="text-align: center;"><strong>TRANG QUẢN LÝ ỨNG DỤNG CỦA TNG</strong></h1>
+<br/>
+<br/>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th><h2>PLATFORM</h2></th>
+        <th><h2><strong>TNGOFFICE DEV</strong></h2></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><h3>IOS</h3></td>
+        <td>
+            <a href="itms-services://?action=download-manifest&url=https://app.tng.io.vn/dev/manifest_dev.plist"><img src="../install_ios.png" alt="" width="125" height="40" /></a>
+        </td>
+    </tr>
+    <tr>
+        <td><h3>APK</h3></td>
+        <td>
+            <a class="btn" href="./tngoffice_dev.apk"><img src="./install_apk.png" alt="" width="125" height="40" /></a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table class="table">
+    <thead>
+    <tr>
+        <th><h2>PLATFORM</h2></th>
+        <th><h2><strong>TNGOFFICE DEV - V80</strong></h2></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><h3>IOS</h3></td>
+        <td>
+            <a href="itms-services://?action=download-manifest&url=https://app.tng.io.vn/dev_80/manifest_dev.plist"><img src="../install_ios.png" alt="" width="125" height="40" /></a>
+        </td>
+    </tr>
+    <tr>
+        <td><h3>APK</h3></td>
+        <td>
+            <a class="btn" href="./dev_80/office_80.apk"><img src="./install_apk.png" alt="" width="125" height="40" /></a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table class="table">
+    <thead>
+    <tr>
+        <th><h2>PLATFORM</h2></th>
+        <th><h2><strong>TNG CBC - V80</strong></h2></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><h3>IOS</h3></td>
+        <td>
+            <a href="itms-services://?action=download-manifest&url=https://app.tng.io.vn/dev_80/manifest_cbc_80.plist"><img src="../install_ios.png" alt="" width="125" height="40" /></a>
+        </td>
+    </tr>
+    <tr>
+        <td><h3>APK</h3></td>
+        <td>
+            <a class="btn" href="./dev_80/cbc_80.apk"><img src="./install_apk.png" alt="" width="125" height="40" /></a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table class="table">
+    <thead>
+    <tr>
+        <th><h2>PLATFORM</h2></th>
+        <th><h2><strong>TNGOFFICE</strong></h2></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><h3>IOS</h3></td>
+        <td>
+            <a href="itms-services://?action=download-manifest&url=https://app.tng.io.vn/dev/manifest_office.plist"><img src="../install_ios.png" alt="" width="125" height="40" /></a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
