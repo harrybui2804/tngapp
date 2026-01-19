@@ -31,13 +31,13 @@
 				<key>bundle-identifier</key>
 				<string>vn.tre360.office</string>
 				<key>bundle-version</key>
-				<string>25.12.1</string>
+				<string>26.1.19</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
 				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>TRE 360 OFFICE</string>
+				<string>TRE 360 - 26.1.19</string>
 			</dict>
 		</dict>
 	</array>
