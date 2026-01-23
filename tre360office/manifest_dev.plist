@@ -29,9 +29,9 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>vn.tre360.office</string>
+				<string>vn.tre360.office.dev</string>
 				<key>bundle-version</key>
-				<string>26.1.20</string>
+				<string>26.1.21</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
